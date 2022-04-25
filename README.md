@@ -1,4 +1,14 @@
 ### Hi there 👋
+I am Tomas Zezula. I like to blog about programming and experiment with technologies.
+
+### Blogs
+* [langnerd](https://langnerd.com) - my blog about programming
+* [tomaszezula](https://tomaszezula.com) - my personal website
+
+You can follow me on [LinkedIn](https://www.linkedin.com/in/zezulatomas), [Twitter](https://twitter.com/TomasZezula) or [YouTube](https://www.youtube.com/channel/UCkCAXrvAECPAN-6eTRSHOpg)
+<!--
+![Github stats](https://github-readme-stats.vercel.app/api?username=zezutom&theme=highcontrast&show_icons=true&count_private=true)
+-->
 
 <!--
 **zezutom/zezutom** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

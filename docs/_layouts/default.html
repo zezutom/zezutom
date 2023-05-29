@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    {% include head-custom.html %}
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        {% if site.logo %}
+        <img src="{{site.logo | relative_url}}" alt="Logo" width="100%" />
+        {% endif %}
+        <h1 class="title">Tomas Zezula</h1>
+        <div class="whoami">Software Engineer</div>
+        <div class="contact">
+            <div><span class="fa fa-envelope icon"></span><span class="icon-label">zezulatomas@gmail.com</span></div>
+            <div><span class="fa fa-file-pdf-o icon"></span><span class="icon-label">Resume</span></div>
+            <div><span class="fa fa-github icon"></span><span class="icon-label">GitHub</span></div>
+            <div><span class="fa fa-twitter icon"></span><span class="icon-label">Twitter</span></div>
+            <div><span class="fa fa-edit icon"></span><span class="icon-label">Blog</span></div>
+        </div>
+<!--        <p>{{ site.description | default: site.github.project_tagline }}</p>-->
+
+    </header>
+    <section>
+
+        {{ content }}
+
+    </section>
+    <footer>
+
+    </footer>
+</div>
+<script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+</body>
+</html>

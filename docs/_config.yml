@@ -18,22 +18,30 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+#title: Tomas Zezula
+logo: /assets/img/logo.png
+profile: /assets/img/profile.png
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  I am a fullstack developer, passionate about technology and innovation.
+  
+  I mostly code backend services in Java and Kotlin. I also enjoy working 
+  with cloud technologies, especially AWS and Google.
+  
+  My experience includes working with various corporate and private clients
+  in a wide range of industries, including cyber security, gaming and finance.
+
 baseurl: "/zezutom" # the subpath of your site, e.g. /blog
 url: "https://zezutom.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-theme: minima
+remote_theme: pages-themes/minimal@v0.2.0
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
-
+gem "github-pages", group: :jekyll_plugins
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

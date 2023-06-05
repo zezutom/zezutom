@@ -2,10 +2,7 @@
 ---
 @import "{{ site.theme }}";
 
-header { width: 350px; float: left; position: fixed; -webkit-font-smoothing: subpixel-antialiased; }
-img.center { display: block; margin-left: auto; margin-right: auto; width: 50%; }
-h1.title { text-align: center; margin-bottom: 0; }
-div.whoami { text-align: center; font-size: large; }
-div.contact { padding-top: 30px; }
+.current { color: green; font-weight: bold; }
+.heading { text-align: center; margin-bottom: 0; font-size: xx-large; font-weight: bold; }
+.subheading { text-align: center; margin-bottom: 10px; font-size: large; }
 span.icon { padding-right: 10px; font-size: larger; }
-span.icon-label { font-size: larger; }

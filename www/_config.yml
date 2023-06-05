@@ -18,20 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-#title: Tomas Zezula
+title: Tomas Zezula
 logo: /assets/img/logo.png
-profile: /assets/img/profile.png
-email: your-email@example.com
+email: zezulatomas@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I am a fullstack developer, passionate about technology and innovation.
-  
-  I mostly code backend services in Java and Kotlin. I also enjoy working 
-  with cloud technologies, especially AWS and Google.
-  
-  My experience includes working with various corporate and private clients
-  in a wide range of industries, including cyber security, gaming and finance.
+  Tomas Zezula's personal website
 
-baseurl: "/zezutom" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://zezutom.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
@@ -39,8 +32,9 @@ github_username:  jekyll
 # Build settings
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 gem "github-pages", group: :jekyll_plugins
 # Exclude from processing.
 # The following items will not be processed, by default.

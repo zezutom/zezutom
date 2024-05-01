@@ -4,7 +4,10 @@
 -->
 I am a backend developer and a technical writer. I love creating automated workflows, custom integrations with platforms like Zoom or Stripe, and thoughtfully designed APIs. I believe in accessible education and share my knowledge through writing and public speaking.
 
-![linkedin](https://img.shields.io/badge/Linkedin-0e76a8?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/zezulatomas)
+[![linkedin](https://img.shields.io/badge/Linkedin-0e76a8?style=for-the-badge&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/zezulatomas)
+[![twitter](https://img.shields.io/badge/Twitter-0899DC?style=for-the-badge&logo=X&logoColor=white)](https://tomaszezula.com)
+[![dev.to](https://img.shields.io/badge/Dev.to-black?style=for-the-badge&logo=Dev.to&logoColor=white)](https://dev.to/zezutom)
+[![blog](https://img.shields.io/badge/website-08DC08?style=for-the-badge&logo=Wordpress&logoColor=white)](https://tomaszezula.com)
 
 - 🔭 I’m currently working on [Zoom SDK and CLI](https://github.com/Kotlin-server-squad/zoomsdk) - a versatile library an easy integration with Zoom.
 - 🌱 I’m currently learning Kotlin MultiPlatform, Stripe and other payment automation platforms.
